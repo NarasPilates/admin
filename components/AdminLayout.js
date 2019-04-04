@@ -4,7 +4,6 @@ import TopNavBar from './TopNavBar';
 import SidebarLeft from './SidebarLeft';
 import SidebarRight from './SidebarRight';
 import SidebarRightHeading from './SidebarRightHeading';
-import Breadcrumb from './Breadcrumb';
 
 const Layout = props => (
   <div>
@@ -57,10 +56,6 @@ const Layout = props => (
       
       <div className="page-content">
         <div className="container-fluid">
-          <h1 className="page-heading">Blank page <small>Sub heading here</small></h1>
-
-          <Breadcrumb/>
-
           {props.children}        
         </div>
         
