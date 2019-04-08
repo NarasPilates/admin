@@ -7,8 +7,15 @@ export default function Dashboard() {
     <Layout>
       <h1 className="page-heading">Llaveros</h1>
 
-      <Breadcrumb/>
-
+      <Breadcrumb pages={[
+        {
+          name: 'Llaveros',
+          href: '/llaveros'
+        },
+        {
+          name: 'Formulario de Llaveros'
+        }
+      ]}/>
       <div className="the-box">
         <h4 className="small-title">DATOS DEL LLAVERO</h4>
         <div className="form-group">
