@@ -1,10 +1,13 @@
 import Layout from '../components/AdminLayout'
 import Breadcrumb from '../components/Breadcrumb';
+import PageTitle from '../components/PageTitle'
 
 export default function Dashboard() {
   return (
     <Layout>
-      <h1 className="page-heading">Dashboard <small>Bienvenido al Admin de Naras Pilates</small></h1>
+      <PageTitle>
+        Dashboard <small>Bienvenido al Admin de Naras Pilates</small>
+      </PageTitle>
 
       <Breadcrumb/>
       

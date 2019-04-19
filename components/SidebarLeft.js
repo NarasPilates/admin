@@ -40,7 +40,7 @@ const SidebarLeft = () => (
           </a>
           <ul className="submenu">
             <li><Link href="/planes"><a>Planes</a></Link></li>
-            <li><Link href="/llaveros"><a>Llaveros</a></Link></li>
+            <li><Link href="/tagsPage" as="tags"><a>Llaveros</a></Link></li>
           </ul>
         </li>
     </ul>

@@ -7733,3 +7733,7 @@ You can remove this style if you want c:
 }
 .weatherseparator:after {clear: both;}
 
+.table-items .actions a {
+	margin-right: 10px;
+	cursor: pointer;
+}

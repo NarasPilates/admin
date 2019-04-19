@@ -5,7 +5,7 @@ const TopNavBar = () => (
     <div className="top-navbar-inner">
 
       <div className="logo-brand primary-color">
-        <a href="index.html"><img src="static/img/logo.png" alt="Naras Pilates logo"/></a>
+        <a href="index.html"><img src="/static/img/logo.png" alt="Naras Pilates logo"/></a>
       </div>
       
       <div className="top-nav-content">
@@ -29,7 +29,7 @@ const TopNavBar = () => (
         <ul className="nav-user navbar-right">
           <li className="dropdown">
             <a href="#fakelink" className="dropdown-toggle" data-toggle="dropdown">
-              <img src="static/img/avatar/avatar.jpg" className="avatar img-circle" alt="Avatar"/>
+              <img src="/static/img/avatar/avatar.jpg" className="avatar img-circle" alt="Avatar"/>
               Hi, <strong>Paris Hawker</strong>
             </a>
             <ul className="dropdown-menu square primary margin-list-rounded with-triangle">
@@ -68,47 +68,47 @@ const TopNavBar = () => (
 											<div className="slimScrollDiv" style={{position: 'relative', overflow: 'hidden', width: 'auto', height: '350px'}}><div className="nav-dropdown-content scroll-nav-dropdown" style={{overflow: 'hidden', width: 'auto', height: '350px'}}>
 												<ul>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Thomas White</strong> posted on your profile page
 														<span className="small-caps">17 seconds ago</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Doina Slaivici</strong> uploaded photo
 														<span className="small-caps">10 minutes ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Harry Nichols</strong> commented on your post
 														<span className="small-caps">40 minutes ago</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Mihaela Cihac</strong> send you a message
 														<span className="small-caps">2 hours ago</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Harold Chavez</strong> change his avatar
 														<span className="small-caps">Yesterday</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Elizabeth Owens</strong> posted on your profile page
 														<span className="small-caps">Yesterday</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Frank Oliver</strong> commented on your post
 														<span className="small-caps">A week ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Mya Weastell</strong> send you a message
 														<span className="small-caps">April 15, 2014</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<strong>Carl Rodriguez</strong> joined your weekend party
 														<span className="small-caps">April 01, 2014</span>
 													</a></li>
@@ -193,47 +193,47 @@ const TopNavBar = () => (
 											<div className="slimScrollDiv" style={{position: 'relative', overflow: 'hidden', width: 'auto', height: '350px'}}><div className="nav-dropdown-content scroll-nav-dropdown" style={{overflow: 'hidden', width: 'auto', height: '350px'}}>
 												<ul>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														Lorem ipsum dolor sit amet, consectetuer adipiscing elit
 														<span className="small-caps">17 seconds ago</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
 														<span className="small-caps">10 minutes ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														I think so
 														<span className="small-caps">40 minutes ago</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														Yes, I'll be waiting
 														<span className="small-caps">2 hours ago</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														Thank you!
 														<span className="small-caps">Yesterday</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														No problem! I will never remember that
 														<span className="small-caps">Yesterday</span>
 													</a></li>
 													<li className="unread"><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														Tak gepuk ndasmu sisan lho dab!
 														<span className="small-caps">A week ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														Sorry bro, aku or atau sing jenenge ngono kui
 														<span className="small-caps">April 15, 2014</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														Will you send me an invitation for your weeding party?
 														<span className="small-caps">April 01, 2014</span>
 													</a></li>
@@ -258,7 +258,7 @@ const TopNavBar = () => (
 											<div className="slimScrollDiv" style={{position: 'relative', overflow: 'hidden', width: 'auto', height: '350px'}}><div className="nav-dropdown-content static-list scroll-nav-dropdown" style={{overflow: 'hidden', width: 'auto', height: '350px'}}>
 												<ul>
 													<li>
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<div className="row">
 															<div className="col-xs-6">
 																<strong>Craig Dixon</strong>
@@ -270,7 +270,7 @@ const TopNavBar = () => (
 														</div>
 													</li>
 													<li>
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<div className="row">
 															<div className="col-xs-6">
 																<strong>Mikayla King</strong>
@@ -282,7 +282,7 @@ const TopNavBar = () => (
 														</div>
 													</li>
 													<li>
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<div className="row">
 															<div className="col-xs-6">
 																<strong>Richard Dixon</strong>
@@ -294,7 +294,7 @@ const TopNavBar = () => (
 														</div>
 													</li>
 													<li>
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<div className="row">
 															<div className="col-xs-6">
 																<strong>Brenda Fuller</strong>
@@ -306,7 +306,7 @@ const TopNavBar = () => (
 														</div>
 													</li>
 													<li>
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<div className="row">
 															<div className="col-xs-6">
 																<strong>Ryan Ortega</strong>
@@ -318,7 +318,7 @@ const TopNavBar = () => (
 														</div>
 													</li>
 													<li>
-														<img src="static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
+														<img src="/static/img/avatar/avatar.jpg" className="absolute-left-content img-circle" alt="Avatar"/>
 														<div className="row">
 															<div className="col-xs-6">
 																<strong>Jessica Gutierrez</strong>
