@@ -5,7 +5,7 @@ import Link from 'next/link'
 const PageWithLink = ({page}) => {
   return (
       <li>
-        <Link href={page.href}><a>{page.name}</a></Link>  
+        <Link href={page.href} as={page.as || ''}><a>{page.name}</a></Link>  
       </li>
   );
 }

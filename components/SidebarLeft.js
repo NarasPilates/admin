@@ -15,7 +15,7 @@ const SidebarLeft = () => (
           Alumnos
         </a>
         <ul className="submenu">
-          <li><Link href="/alumnos"><a>Alumnos</a></Link></li>
+          <li><Link href="/studentsPage" as="students"><a>Alumnos</a></Link></li>
           <li><Link href="/cobros"><a>Cobros</a></Link></li>
         </ul>
       </li>

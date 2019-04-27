@@ -21,12 +21,28 @@ app
 
     server.get('/tags/edit/:id', (req, res) => {
       const actualPage = '/tagsFormPage';
-      const queryParams = { title: req.params.id }
+      const queryParams = { tagsId: req.params.id }
       app.render(req, res, actualPage, queryParams)
     })
 
     server.get('/tags/add', (req, res) => {
       const actualPage = '/tagsFormPage'
+      app.render(req, res, actualPage, {})
+    })
+
+    server.get('/students', (req, res) => {
+      const actualPage = '/studentsPage'
+      app.render(req, res, actualPage, {})
+    })
+
+    server.get('/students/edit/:id', (req, res) => {
+      const actualPage = '/studentsFormPage';
+      const queryParams = { id: req.params.id };
+      app.render(req, res, actualPage, queryParams)
+    })
+
+    server.get('/students/add', (req, res) => {
+      const actualPage = '/studentsFormPage'
       app.render(req, res, actualPage, {})
     })
 

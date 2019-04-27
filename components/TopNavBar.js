@@ -5,7 +5,9 @@ const TopNavBar = () => (
     <div className="top-navbar-inner">
 
       <div className="logo-brand primary-color">
-        <a href="index.html"><img src="/static/img/logo.png" alt="Naras Pilates logo"/></a>
+				<Link href="/">
+					<a><img src="/static/img/logo.png" alt="Naras Pilates logo"/></a>
+				</Link>
       </div>
       
       <div className="top-nav-content">

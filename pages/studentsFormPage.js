@@ -3,29 +3,29 @@ import React from 'react';
 import Layout from '../components/AdminLayout';
 import Breadcrumb from '../components/Breadcrumb';
 import PageTitle from '../components/PageTitle';
-import TagsForm from '../components/tags/TagsForm';
+import StudentsForm from '../components/students/StudentsForm';
 
-class TagsFormPage extends React.Component {
+class StudentsFormPage extends React.Component {
   static getInitialProps({ query }) {
     return { id: query.id || '' };
   }
 
   render () {
     return <Layout>
-      <PageTitle title="Llaveros" />
+      <PageTitle title="Alumnos" />
       <Breadcrumb pages={[
         {
-          name: 'Llaveros',
-          href: '/tagsPage',
-          as: '/tags'
+          name: 'Alumnos',
+          href: '/studentsPage',
+          as: '/students'
         },
         {
-          name: 'Formulario de Llaveros'
+          name: 'Formulario de Alumnos'
         }
       ]}/>
-      <TagsForm tagId={this.props.id } />
+      <StudentsForm userId={this.props.id } />
     </Layout>
   }
 }
 
-export default TagsFormPage;
+export default StudentsFormPage;

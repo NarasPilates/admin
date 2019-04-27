@@ -48,7 +48,10 @@ class TagsForm extends React.Component {
     event.preventDefault();
 
     const {tag} = this.state;
-
+    if (!tag._id) {
+      return;
+    }
+    
     if(this.state.mode == 'add') {
       APIRestClient.post(`tags/`, { ...tag })
       .then(() => {
