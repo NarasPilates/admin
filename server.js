@@ -46,6 +46,12 @@ app
       app.render(req, res, actualPage, {})
     })
 
+    server.get('/user/:id/tags/assign', (req, res) => {
+      const actualPage = '/assignTagFormPage';
+      const queryParams = { id: req.params.id };
+      app.render(req, res, actualPage, queryParams)
+    })
+
     server.get('*', (req, res) => {
       return handle(req, res)
     })
